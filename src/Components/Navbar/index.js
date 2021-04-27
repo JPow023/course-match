@@ -6,13 +6,16 @@ import Container from 'react-bootstrap/Container';
 // import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link as Link} from 'react-router-dom';
 
 function Navigation(props) {
     return(
         <>
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="http://localhost:3000/">Course Correctly</Navbar.Brand>
+                <Link to='/'>
+                    <Navbar.Brand>Course Correctly</Navbar.Brand>
+                    </Link>
                 <Nav className="mr-auto">
                 </Nav>
                 <form onSubmit={props.handleSubmit} onChange={props.handleChange}>
