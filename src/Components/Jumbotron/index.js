@@ -8,7 +8,7 @@ function Header() {
         <Container>
             <h1>Course Correctly</h1>
             <p>
-            Independent, unbiased reviews of online courses for knowledge workers.
+            The biggest database of online courses.
             </p>
         </Container>
         </Jumbotron>
